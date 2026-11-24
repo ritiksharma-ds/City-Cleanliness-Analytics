@@ -1,0 +1,286 @@
+{
+ "raw_rows": 4498,
+ "missing_resolution": 90,
+ "missing_timestamp": 44,
+ "duplicates": 66,
+ "bad_ward_labels": 133,
+ "category_variants_before": 27,
+ "outliers_9999": 40,
+ "imputed": 127,
+ "clean_rows": 4388,
+ "category_variants_after": 7,
+ "wards": 15,
+ "table1": [
+  [
+   "Complaints per 10k residents (monthly)",
+   2.4,
+   0.7,
+   1.6,
+   3.4
+  ],
+  [
+   "Avg resolution time (hours)",
+   34.8,
+   6.7,
+   25.3,
+   44.4
+  ],
+  [
+   "Resolved within 48 h (%)",
+   80.4,
+   9.4,
+   66.4,
+   93.5
+  ],
+  [
+   "Waste pickups per week",
+   5.3,
+   1.2,
+   2.7,
+   6.9
+  ],
+  [
+   "Doorstep collection coverage (%)",
+   81.8,
+   8.2,
+   66.8,
+   92.3
+  ],
+  [
+   "Public toilets functional (%)",
+   77.3,
+   7.7,
+   63.3,
+   89.4
+  ],
+  [
+   "Inspection score (0-100)",
+   67.3,
+   8.4,
+   46.3,
+   79.7
+  ],
+  [
+   "Bins per sq km",
+   13.5,
+   4.9,
+   5.6,
+   22.3
+  ]
+ ],
+ "z_flags": [
+  [
+   "Ward 02",
+   "toilet_functional_pct",
+   -1.82
+  ],
+  [
+   "Ward 04",
+   "bins_per_sqkm",
+   1.82
+  ],
+  [
+   "Ward 05",
+   "pickups_per_week",
+   -2.21
+  ],
+  [
+   "Ward 05",
+   "inspection_score",
+   -2.5
+  ],
+  [
+   "Ward 06",
+   "doorstep_coverage_pct",
+   -1.84
+  ]
+ ],
+ "iqr_fence": 4.64,
+ "iqr_outliers": [],
+ "corr": {
+  "pickups_vs_complaints": -0.76,
+  "inspection_vs_complaints": -0.77,
+  "resolution_vs_inspection": -0.83,
+  "coverage_vs_inspection": 0.7,
+  "complaints_vs_resolution": 0.84
+ },
+ "rank_top3": [
+  [
+   "Ward 11",
+   "West",
+   97.9
+  ],
+  [
+   "Ward 14",
+   "Central",
+   91.9
+  ],
+  [
+   "Ward 04",
+   "South",
+   87.1
+  ]
+ ],
+ "rank_bottom3": [
+  [
+   "Ward 02",
+   "North",
+   22.3
+  ],
+  [
+   "Ward 06",
+   "South",
+   15.8
+  ],
+  [
+   "Ward 05",
+   "South",
+   9.2
+  ]
+ ],
+ "rank_all": [
+  [
+   "Ward 11",
+   "West",
+   97.9
+  ],
+  [
+   "Ward 14",
+   "Central",
+   91.9
+  ],
+  [
+   "Ward 04",
+   "South",
+   87.1
+  ],
+  [
+   "Ward 12",
+   "West",
+   81.6
+  ],
+  [
+   "Ward 01",
+   "North",
+   78.4
+  ],
+  [
+   "Ward 03",
+   "North",
+   77.6
+  ],
+  [
+   "Ward 13",
+   "Central",
+   61.8
+  ],
+  [
+   "Ward 07",
+   "East",
+   58.2
+  ],
+  [
+   "Ward 09",
+   "East",
+   57.6
+  ],
+  [
+   "Ward 08",
+   "East",
+   56.7
+  ],
+  [
+   "Ward 15",
+   "Central",
+   52.0
+  ],
+  [
+   "Ward 10",
+   "West",
+   25.7
+  ],
+  [
+   "Ward 02",
+   "North",
+   22.3
+  ],
+  [
+   "Ward 06",
+   "South",
+   15.8
+  ],
+  [
+   "Ward 05",
+   "South",
+   9.2
+  ]
+ ],
+ "pca": {
+  "pc1": 78.3,
+  "pc12": 85.5,
+  "r_index": 0.99
+ },
+ "rank_corr_equal_weights": 0.996,
+ "monthly": [
+  283,
+  285,
+  267,
+  339,
+  370,
+  418,
+  522,
+  529,
+  445,
+  369,
+  290,
+  271
+ ],
+ "peak_month": 8,
+ "low_month": 3,
+ "monsoon_rise_pct": 79.2,
+ "cat_share": {
+  "Garbage overflow": 26.1,
+  "Missed collection": 20.4,
+  "Littering / dumping": 16.4,
+  "Drain blockage": 12.8,
+  "Public toilet issue": 9.5,
+  "Street sweeping": 9.4,
+  "Dead animal": 5.4
+ },
+ "peak_hours": [
+  8,
+  18,
+  7
+ ],
+ "morning_share": 37.5,
+ "resolved_48h_all": 78.0,
+ "avg_res_all": 36.4,
+ "channel_share": {
+  "App": 62.8,
+  "Helpline": 24.4,
+  "Web": 12.8
+ },
+ "top_complaint_wards": [
+  [
+   "Ward 02",
+   3.39
+  ],
+  [
+   "Ward 06",
+   3.31
+  ],
+  [
+   "Ward 10",
+   3.16
+  ]
+ ],
+ "total_complaints": 4388,
+ "sim": {
+  "ward": "Ward 05",
+  "before": 9.2,
+  "after": 32.6,
+  "pickup_add": 1.5,
+  "res_cut": 25,
+  "cov_add": 8
+ }
+}
